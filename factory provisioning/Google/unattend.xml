@@ -124,11 +124,6 @@
                         <Description>Executing First Commands 5</Description>
                         <Order>5</Order>
                     </SynchronousCommand>
-			<SynchronousCommand wcm:action="add">
-                        <CommandLine>Dism.exe /online /Import-DefaultAppAssociations:c:\Recovery\Defaultapps.xml</CommandLine>
-                        <Description>Executing First Commands 6</Description>
-                        <Order>6</Order>
-                    </SynchronousCommand>
             </FirstLogonCommands>
         </component>
     </settings>
