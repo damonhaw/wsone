@@ -4,7 +4,7 @@
     <settings pass="specialize">
 <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ComputerName>*</ComputerName>
-            <ProductKey>6QQND-KJF9F-7PKVJ-87DYP-HH644</ProductKey>
+            <ProductKey>NPPR9-FWDCX-D2C8J-H872K-2YT43</ProductKey>
             <RegisteredOrganization>FFG</RegisteredOrganization>
             <RegisteredOwner>FFG</RegisteredOwner>
 </component>
@@ -82,7 +82,7 @@
     <LocalAccounts>
         <LocalAccount wcm:action="add">
             <Password>
-                <Value>VgBNAHcAYQByAGUAMQAhAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+                <Value>xxxxxxx</Value>
                 <PlainText>false</PlainText>
             </Password>
             <Description>Local account</Description>
@@ -105,7 +105,7 @@
     <Description>Executing First Commands 1</Description>
     <Order>1</Order>
 </SynchronousCommand>                    <SynchronousCommand wcm:action="add">
-                        <CommandLine>msiexec /i "c:\Recovery\OEM\AirwatchAgent.msi" /qn ENROLL=Y SERVER=https://ds531.awmdm.com LGNAME=NHSXTEST USERNAME=staging@NHSXTEST.com PASSWORD="C*lE7W" ASSIGNTOLOGGEDINUSER=y</CommandLine>
+                        <CommandLine>msiexec /i "c:\Recovery\OEM\AirwatchAgent.msi" /qn ENROLL=Y SERVER=https://ds531.awmdm.com LGNAME=XXXXX USERNAME=staging@xxxxx.com PASSWORD="xxxxx" ASSIGNTOLOGGEDINUSER=y</CommandLine>
                         <Description>Executing First Commands 2</Description>
                         <Order>2</Order>
                     </SynchronousCommand>
@@ -123,11 +123,6 @@
                         <CommandLine>cmd /c net localgroup "Administrators" "Authenticated Users" /delete</CommandLine>
                         <Description>Executing First Commands 5</Description>
                         <Order>5</Order>
-                    </SynchronousCommand>
-			<SynchronousCommand wcm:action="add">
-                        <CommandLine>Dism.exe /online /Import-DefaultAppAssociations:c:\Recovery\Defaultapps.xml</CommandLine>
-                        <Description>Executing First Commands 6</Description>
-                        <Order>6</Order>
                     </SynchronousCommand>
             </FirstLogonCommands>
         </component>
