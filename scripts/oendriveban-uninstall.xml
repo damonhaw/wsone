@@ -1,0 +1,8 @@
+<Delete>
+  <CmdID>e15c9d55-1f29-413b-a7ff-895998553d73</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync</LocURI>
+    </Target>
+  </Item>
+</Delete>

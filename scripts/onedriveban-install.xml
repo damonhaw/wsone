@@ -1,0 +1,13 @@
+<Replace>
+  <CmdID>254cac87-4cf9-4219-ab41-42ab85cff9dc</CmdID>
+  <Item>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync</LocURI>
+    </Target>
+    <Data>1</Data>
+  </Item>
+</Replace>
