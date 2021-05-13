@@ -1,0 +1,8 @@
+<Delete>
+  <CmdID>63c22b17-9704-424a-b008-55d13ce592e4</CmdID>
+  <Item>
+    <Target>
+<LocURI>./User/Vendor/MSFT/Policy/Config/outlk16~Policy~L_MicrosoftOfficeOutlook~L_ToolsAccounts~L_Exchangesettings/L_AutomaticallyConfigureProfileBasedOnActive</LocURI>
+    </Target>
+  </Item>
+</Delete>
