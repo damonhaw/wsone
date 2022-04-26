@@ -60,6 +60,11 @@
                         <Path>cmd /c reg ADD HKLM\Software\Google\GCPW /v use_shorter_account_name /t REG_DWORD /d 1 /f</Path>
                         <Order>9</Order>
 			</RunSynchronousCommand>
+		     <RunSynchronousCommand wcm:action="add">
+                        <Description>GCPW_TOKEN</Description>
+                        <Path>cmd /c reg ADD HKLM\SOFTWARE\Policies\Google\CloudManagement /v EnrollmentToken /t REG_SZ /d "xxxxxx-5257-46bd-a188-2fe4c68cbf54" /f</Path>
+                        <Order>10</Order>
+			</RunSynchronousCommand>
             </RunSynchronous>
         </component>
     </settings>
