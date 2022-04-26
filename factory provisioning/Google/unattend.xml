@@ -110,7 +110,7 @@
     <Description>Executing First Commands 1</Description>
     <Order>1</Order>
 </SynchronousCommand>                    <SynchronousCommand wcm:action="add">
-                        <CommandLine>msiexec /i "c:\Recovery\OEM\AirwatchAgent.msi" /qn ENROLL=Y SERVER=https://ds531.awmdm.com LGNAME=XXXXX USERNAME=staging@xxxxx.com PASSWORD="xxxxx" ASSIGNTOLOGGEDINUSER=y</CommandLine>
+                        <CommandLine>msiexec /i "c:\Recovery\OEM\AirwatchAgent.msi" /qn ENROLL=Y SERVER=https://xxxxx.awmdm.com LGNAME=XXXXX USERNAME=staging@xxxxx.com PASSWORD="xxxxx" ASSIGNTOLOGGEDINUSER=y</CommandLine>
                         <Description>Executing First Commands 2</Description>
                         <Order>2</Order>
                     </SynchronousCommand>
