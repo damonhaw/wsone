@@ -9,7 +9,6 @@
     UEM_CLIENT_ID       OAuth client id
     UEM_CLIENT_SECRET   OAuth client secret
     UEM_TOKEN_URL       e.g. https://uat.uemauth.workspaceone.com/connect/token
-  The per-device eventlog endpoint was found by testing, not from official docs.
 #>
 param(
     [string]$OutFile  = "hmac_failures_windows.csv",
