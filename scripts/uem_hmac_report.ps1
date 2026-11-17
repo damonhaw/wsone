@@ -3,6 +3,7 @@
   Report Windows devices in Workspace ONE UEM (SaaS) with HmacAuthenticationFailure events.
 
 .NOTES
+  Use a read only admin role
   Set these environment variables first (do not hard-code secrets):
     UEM_HOST            e.g. as1831.awmdm.com
     UEM_TENANT_CODE     API key (aw-tenant-code)
